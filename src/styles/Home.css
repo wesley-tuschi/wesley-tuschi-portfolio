@@ -11,13 +11,27 @@
 
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
 
 @media (min-width: 1200px) {
-
+  
 } */
+
+.background-gradient {
+  background-color: #031219;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .background-gradient {
+    background: repeating-linear-gradient(
+      to right,
+      white,
+      /* cor da linha */ #031219 0.03%,
+      /* define a largura da linha */ #031219 20%,
+      /* cor do espaço entre as linhas */ #031219 1%
+        /* define a largura do espaço entre as linhas */
+    );
+  }
+}
 
 .home {
   display: flex;
@@ -32,16 +46,7 @@
   justify-content: center;
   align-items: center;
 }
-.background-gradient {
-  background: repeating-linear-gradient(
-    to right,
-    white,
-    /* cor da linha */ #031219 0.03%,
-    /* define a largura da linha */ #031219 20%,
-    /* cor do espaço entre as linhas */ #031219 1%
-      /* define a largura do espaço entre as linhas */
-  );
-}
+
 .home-text {
   position: absolute;
   text-transform: uppercase;

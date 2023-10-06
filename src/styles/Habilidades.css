@@ -1,12 +1,6 @@
 .background-habilidades {
   padding: 20px;
-  background: repeating-linear-gradient(
-    to right,
-    white,
-    black 0.03%,
-    black 20%,
-    black 1%
-  );
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -1,13 +1,6 @@
 .background-portfolio {
   padding: 20px;
-  background: repeating-linear-gradient(
-    to right,
-    white,
-    /* cor da linha */ black 0.03%,
-    /* define a largura da linha */ black 20%,
-    /* cor do espaço entre as linhas */ black 1%
-      /* define a largura do espaço entre as linhas */
-  );
+  background-color: black;
 }
 
 .portfolio-name {

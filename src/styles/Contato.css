@@ -1,60 +1,54 @@
 .background-contato {
-    background: repeating-linear-gradient(
-      to right,
-      white,
-      #9C2B26 0.03%,
-      #9C2B26 20%,
-      #9C2B26 1%
-    );
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contato-name {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: break-word;
-    max-width: 1000px;
-    overflow: visible;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Goblin One', sans-serif;
-    color: #e9d8a6;
-    font-size: 32px;
-    letter-spacing: 0em;
-    line-height: 1.2;
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
+  background-color: #9c2b26;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.contato-name {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 1000px;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Goblin One', sans-serif;
+  color: #e9d8a6;
+  font-size: 32px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
 
 .contato-text {
-    word-wrap: break-word;
+  word-wrap: break-word;
   font-family: 'Space Mono', monospace;
   color: #ffffff;
   font-size: 18px;
   line-height: 1.5;
 }
-  #contato-section {
-    margin: 0 auto;
-    max-width: 800px;
-  }
-  
-  .contact-methods {
-    margin-top: 20px;
-  }
-  
-  .contact-link {
-    display: inline-block;
-    margin: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .contact-icon {
-    vertical-align: middle;
-    margin-right: 8px;
-    height: 20px;
-  }
-  
+#contato-section {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.contact-methods {
+  margin-top: 20px;
+}
+
+.contact-link {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-icon {
+  vertical-align: middle;
+  margin-right: 8px;
+  height: 20px;
+}

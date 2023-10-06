@@ -1,12 +1,5 @@
 .background-info {
-  background: repeating-linear-gradient(
-    to right,
-    white,
-    /* cor da linha */ #af3128 0.03%,
-    /* define a largura da linha */ #af3128 20%,
-    /* cor do espaço entre as linhas */ #af3128 1%
-      /* define a largura do espaço entre as linhas */
-  );
+  background-color: #Af3128;
   padding: 20px;
 }
 
