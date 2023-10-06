@@ -1,0 +1,22 @@
+.footer {
+  /* background-color: black; */
+  white-space: pre;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Space Mono', monospace;
+  color: #ee9b00;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: center;
+
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    /* cor da linha */ #000 0.03%,
+    /* define a largura da linha */ black 20%,
+    /* cor do espaço entre as linhas */ black 1%
+      /* define a largura do espaço entre as linhas */
+  );
+}

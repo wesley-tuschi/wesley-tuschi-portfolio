@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Space+Mono&display=swap');
+
+/* 
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+} */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-gradient {
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    /* cor da linha */ #031219 0.03%,
+    /* define a largura da linha */ #031219 20%,
+    /* cor do espaço entre as linhas */ #031219 1%
+      /* define a largura do espaço entre as linhas */
+  );
+}
+.home-text {
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my-name {
+  color: #ffff;
+  font-family: 'Goblin One', sans-serif;
+  font-size: 2.5em;
+  color: #94d2bd;
+  margin-bottom: 5em;
+}
+
+.i-am {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+  color: white;
+}
+
+.my-words {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+  color: #94d2bd;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 1.5px;
+  height: 1em;
+  background-color: black;
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}

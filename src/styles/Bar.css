@@ -1,0 +1,23 @@
+.bar {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Space Mono', monospace;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  background-color: transparent;
+  margin-top: 10em;
+}
+
+.nav-pills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item button {
+  background-color: transparent;
+  border: none;
+  color: #94d2bd;
+  cursor: pointer;
+}

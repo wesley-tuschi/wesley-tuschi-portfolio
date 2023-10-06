@@ -1,0 +1,48 @@
+.background-info {
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    /* cor da linha */ #af3128 0.03%,
+    /* define a largura da linha */ #af3128 20%,
+    /* cor do espaço entre as linhas */ #af3128 1%
+      /* define a largura do espaço entre as linhas */
+  );
+  padding: 20px;
+}
+
+.my-info,
+.my-info-2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.my-info {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 1000px;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Goblin One', sans-serif;
+  color: #e9d8a6;
+  font-size: 32px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.my-info-2 {
+  word-wrap: break-word;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.emphasis {
+  font-weight: bold;
+  font-size: 19px;
+}

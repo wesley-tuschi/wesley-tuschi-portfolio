@@ -1,0 +1,51 @@
+.background-certificados {
+  padding: 20px;
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    /* cor da linha */ #af3128 0.03%,
+    /* define a largura da linha */ #af3128 20%,
+    /* cor do espaço entre as linhas */ #af3128 1%
+      /* define a largura do espaço entre as linhas */
+  );
+}
+
+.certificados-name {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 1000px;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Goblin One', sans-serif;
+  color: #e9d8a6;
+  font-size: 32px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.carousel-inner {
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* Borda opcional */
+  border-radius: 8px; /* Arredondamento dos cantos */
+  margin-bottom: 15px; /* Espaço abaixo de cada imagem */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}

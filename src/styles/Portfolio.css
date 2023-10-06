@@ -1,0 +1,77 @@
+.background-portfolio {
+  padding: 20px;
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    /* cor da linha */ black 0.03%,
+    /* define a largura da linha */ black 20%,
+    /* cor do espaço entre as linhas */ black 1%
+      /* define a largura do espaço entre as linhas */
+  );
+}
+
+.portfolio-name {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 1000px;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Goblin One', sans-serif;
+  color: #e9d8a6;
+  font-size: 32px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.card-img-top:hover {
+  filter: grayscale(0%);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Space Mono', monospace;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Space Mono', monospace;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.web-logo {
+  height: 50px;
+}
+
+.github-logo {
+  height: 40px;
+}

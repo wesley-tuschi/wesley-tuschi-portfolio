@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { AnimatePresence, motion, useScroll, useSpring } from 'framer-motion';
+import Home from './pages/Home';
+import './styles/global.css';
+import Info from './pages/Info';
+import Habilidades from './pages/Habilidades';
+import Portfolio from './pages/Portfolio';
+import Contato from './pages/Contato';
+import Certificados from './pages/Certificados';
+import Footer from './utils/Footer';
 
 function App() {
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <motion.div className="progress-bar" style={{ scaleX }} />
+       <AnimatePresence mode='wait'>
+          <Home />
+        </AnimatePresence>
+        <Info />
+      <Portfolio />
+      <Certificados />
+      <Habilidades />
+      <Contato />
+      <Footer />
+    </>
   );
 }
 
