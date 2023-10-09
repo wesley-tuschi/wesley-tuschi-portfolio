@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio';
 import Contato from './pages/Contato';
 import Certificados from './pages/Certificados';
 import Footer from './utils/Footer';
+import ButtonToTop from './utils/ButtonToTop';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <Habilidades />
       <Contato />
       <Footer />
+      <ButtonToTop />
     </>
   );
 }
