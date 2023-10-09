@@ -39,7 +39,7 @@ const Habilidades = () => {
           </p>
         </div>
         <div className='skills-column'>
-          <h2 className='skills-title'>Skills</h2>
+          {/* <h2 className='skills-title'>Skills</h2> */}
           <InView triggerOnce>
             {({ inView, ref }) => (
               <ul className='skills-list' ref={ref}>

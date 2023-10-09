@@ -39,3 +39,23 @@
   font-weight: bold;
   font-size: 19px;
 }
+
+.course-details {
+  margin: 20px 0;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.info-school {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.info-paragraph {
+  font-size: 14px;
+}

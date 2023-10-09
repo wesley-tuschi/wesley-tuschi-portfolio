@@ -4,13 +4,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
 }
 
 .skills-title {
   white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-word;
   max-width: 1000px;
   overflow: visible;
   font-weight: 400;
@@ -58,14 +55,16 @@
 .skills-column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  justify-content: space-around;
 }

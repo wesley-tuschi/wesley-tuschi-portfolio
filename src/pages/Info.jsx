@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Info.css';
+import ProfilePhoto from '../images/Cyberpunk.png';
 
 const Info = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,7 +44,10 @@ const Info = () => {
   }, []);
 
   return (
-    <div ref={infoRef} style={{ backgroundColor: isVisible ? 'transparent' : 'black' }}>
+    <div
+      ref={infoRef}
+      style={{ backgroundColor: isVisible ? 'transparent' : 'black' }}
+    >
       <motion.div
         className='background-info'
         variants={containerVariants}
@@ -58,42 +62,59 @@ const Info = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Conheça mais sobre mim
+            Sobre mim
           </motion.h1>
-          <motion.p
-            className='my-info-2'
+          <motion.div
+            className='course-details'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
+          >
+            <img src={ProfilePhoto} className='profile-photo img-fluid' alt='Profile' />
+          Meu nome é <span className='emphasis'>Wesley Tuschi</span>, tenho 23
+            anos e resido em Ribeirão Preto-SP. 
+          </motion.div>
+          <motion.div
+            className='course-details'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
-            Meu nome é <span className='emphasis'>Wesley Tuschi</span>, tenho 23
-            anos e resido em Ribeirão Preto-SP. Atualmente, estou cursando{' '}
-            <span className='emphasis'>
-              Análise e Desenvolvimento de Sistemas
-            </span>{' '}
-            pelo Centro Universitário União das Américas Descomplica e também me
-            aperfeiçoando como{' '}
-            <span className='emphasis'>Desenvolvedor Web Full Stack</span> na
-            Trybe. Busco constantemente expandir meus conhecimentos e, sempre
-            que possível, realizo cursos extracurriculares na Alura, além de
-            participar de outros bootcamps.
-          </motion.p>
-          <motion.p
-            className='my-info-2'
+            <span className='emphasis'>- Desenvolvimento Web Full Stack</span>
+            <br />
+            <p className='info-school'>
+            Trybe, conclusão em fevereiro de 2024.
+            </p>
+            <br />
+            <p className='info-paragraph'>1.500 horas de aula com foco em: Introdução ao desenvolvimento de
+            software, front-end, back-end, ciência da computação, engenharia de
+            software, metodologias ágeis e habilidades comportamentais.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className='course-details'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2, duration: 1 }}
           >
-            Sou fascinado por tecnologia e constantemente busco enfrentar novos
-            desafios. Estou sempre me aprofundando em diversos aspectos da
-            programação, abrangendo tanto o{' '}
-            <span className='emphasis'>front-end</span> quanto o{' '}
-            <span className='emphasis'>back-end</span>. Além disso, busco
-            conhecimento em áreas complementares, como{' '}
-            <span className='emphasis'>DevOps</span> e{' '}
-            <span className='emphasis'>Data Science</span>, para ampliar minha
-            experiência.
-          </motion.p>
+            <span className='emphasis'>
+            - Análise e Desenvolvimento de Sistemas
+            </span>
+            <br />
+            <p className='info-school'>
+            Centro Universitário União das Américas Descomplica, conclusão em
+            dezembro de 2025.
+            </p>
+            <br />
+            <p className='info-paragraph'>2.000 horas de aula com foco em: Desenvolvimento FrontEnd e
+            Dinâmico, Experiência do Usuário, Lógica de Programação, Estruturas
+            de Dados para Sistemas Inteligentes, Design de Software, Modelagem
+            de Bancos de Dados, Arquitetura de Computadores, Desenvolvimento
+            Mobile, DevOps e Cloud Computing, Segurança Tecnológica e
+            Compliance, Metodologias Ágeis e Testes.
+            </p>
+          </motion.div>
         </div>
       </motion.div>
     </div>

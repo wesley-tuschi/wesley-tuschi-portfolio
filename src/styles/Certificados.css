@@ -1,5 +1,5 @@
 .background-certificados {
-  padding: 20px;
+  padding: 80px 0;
   background-color:  #Af3128;
 }
 
@@ -18,7 +18,7 @@
   line-height: 1.2;
   text-align: center;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .carousel-inner {

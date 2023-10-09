@@ -21,8 +21,13 @@ const bar = () => {
               </button>
             </li>
             <li className='nav-item'>
-              <button classname='bar-button' onClick={() => scrollTo('habilidades-section')}>
+              <button classname='bar-button' onClick={() => scrollTo('certificados-section')}>
                 Certificados
+              </button>
+            </li>
+            <li className='nav-item'>
+              <button classname='bar-button' onClick={() => scrollTo('habilidades-section')}>
+                Skills
               </button>
             </li>
             <li className='nav-item'>
