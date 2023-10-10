@@ -10,7 +10,6 @@
   letter-spacing: 0em;
   line-height: 1.5;
   text-align: center;
-
   background: repeating-linear-gradient(
     to right,
     white,
@@ -19,4 +18,5 @@
     /* cor do espaço entre as linhas */ black 1%
       /* define a largura do espaço entre as linhas */
   );
+  margin-bottom: 20px;
 }

@@ -55,7 +55,7 @@ const Portfólio = () => {
           initial='hidden'
           animate={isVisible ? 'visible' : 'hidden'}
         >
-          <img src={RecipesApp} className='card-img-top' alt='RecipesApp' />
+          <img src={RecipesApp} className='card-img-top img-fluid' alt='RecipesApp'/>
           <div className='card-body'>
             <h5 className='card-title'>
               <b>RecipesApp</b>

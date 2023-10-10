@@ -21,3 +21,17 @@
   color: #94d2bd;
   cursor: pointer;
 }
+
+@media only screen and (min-width: 768px) {
+  .bar {
+    font-size: 24px;
+    padding: 0 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bar {
+    font-size: 32px;
+    padding: 0 10%;
+  }
+}

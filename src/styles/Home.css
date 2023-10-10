@@ -1,36 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Space+Mono&display=swap');
 
-/* 
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-
-@media (min-width: 1200px) {
-  
-} */
-
 .background-gradient {
   background-color: #031219;
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .background-gradient {
-    background: repeating-linear-gradient(
-      to right,
-      white,
-      /* cor da linha */ #031219 0.03%,
-      /* define a largura da linha */ #031219 20%,
-      /* cor do espaço entre as linhas */ #031219 1%
-        /* define a largura do espaço entre as linhas */
-    );
-  }
 }
 
 .home {
@@ -58,9 +29,9 @@
 .my-name {
   color: #ffff;
   font-family: 'Goblin One', sans-serif;
-  font-size: 2.5em;
+  font-size: 4em;
   color: #94d2bd;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .i-am {
@@ -91,5 +62,33 @@
   50%,
   100% {
     opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my-name {
+    margin-bottom: 2em;
+    font-size: 6em;
+  }
+
+  .home-text2 {
+    padding-top: 5em;
+    }
+
+  .i-am {
+    font-size: 2em;
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .my-name {
+    margin-top: 1.2em;
+    font-size: 8em;
+  }
+  .i-am {
+    font-size: 3em;
+  }
+  .my-words {
+    font-size: 3em;
   }
 }
