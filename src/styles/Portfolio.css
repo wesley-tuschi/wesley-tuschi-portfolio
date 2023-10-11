@@ -68,3 +68,60 @@
 .github-logo {
   height: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  #portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .portfolio-name {
+    font-size: 56px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    align-self: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1.5em;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-img-top {
+    width: 20%;
+    height: auto;
+  }
+  .card-body {
+    width: 60%;
+    padding: 40px;
+    
+  }
+  .card-title {
+    font-size: 36px;
+  }
+  .card-text {
+    font-size: 24px;
+  }
+  .project-links {
+    margin-top: 40px;
+  }
+  .web-logo,
+  .github-logo {
+    transition: transform 0.3s ease;
+  }
+  .web-logo:hover,
+  .github-logo:hover {
+    transform: scale(1.1);
+  }
+  .web-logo {
+    height: 70px;
+  }
+  .github-logo {
+    height: 60px;
+  }
+}
