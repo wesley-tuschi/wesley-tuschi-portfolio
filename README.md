@@ -1,10 +1,8 @@
-# Meu Portfólio Mobile 📱
+# Meu Portfólio
 
 ## Descrição 📝
 
-Este é o repositório do meu portfólio pessoal feito para dispositivos móveis. O site foi projetado para fornecer uma visão geral das minhas habilidades, projetos e experiência na área de desenvolvimento web.
-
-**Nota: Até o momento, o design responsivo para desktops ainda não foi implementado.**
+Este é o repositório do meu portfólio pessoal. O site foi projetado para fornecer uma visão geral das minhas habilidades, projetos e experiência na área de desenvolvimento web.
 
 ## Tecnologias Utilizadas 🛠️
 
@@ -19,6 +17,7 @@ Este é o repositório do meu portfólio pessoal feito para dispositivos móveis
 - Portfólio de projetos
 - Certificados
 - Contato
+- Queijo
 
 ## LINK
 https://wesleytuschi.vercel.app/
