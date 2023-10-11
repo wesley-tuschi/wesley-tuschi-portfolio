@@ -52,10 +52,20 @@
   margin-top: 5px;
 }
 
+.skills-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .skills-column {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: auto;
+  weight: auto;
+
 }
 
 .skills-list {
@@ -64,7 +74,53 @@
   list-style-type: none;
   padding: 0;
   margin-left: 5vh;
+  margin-right: 5vh;
   margin-top: 5vh;
   margin-bottom: 5vh;
   justify-content: space-around;
+  background-color: #212121;
+  border-radius: 10px;
+  
+}
+
+@media (min-width: 1024px) {
+  .background-habilidades {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills-title {
+    font-size: 48px;
+  }
+
+  .skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills-paragraph {
+    align-self: center;
+    max-width: 50%;
+    font-size: 24px;
+  }
+
+  .skills-tec {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .skills-list {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10vh;
+    margin-bottom: 5h;
+    padding: 20px;
+  }
+  
 }

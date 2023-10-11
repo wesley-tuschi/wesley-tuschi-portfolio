@@ -30,7 +30,7 @@ const Habilidades = () => {
   return (
     <div className='background-habilidades'>
       <div id='habilidades-section'>
-        <div className='skills-column'>
+        <div className='skills-info'>
           <h1 className='skills-title'>Tech Arsenal</h1>
           <p className='skills-paragraph'>
             Estas são algumas das linguagens e tecnologias utilizadas para
@@ -39,7 +39,6 @@ const Habilidades = () => {
           </p>
         </div>
         <div className='skills-column'>
-          {/* <h2 className='skills-title'>Skills</h2> */}
           <InView triggerOnce>
             {({ inView, ref }) => (
               <ul className='skills-list' ref={ref}>
@@ -47,7 +46,7 @@ const Habilidades = () => {
                   {inView &&
                     skillsArray.map((skill, index) => (
                       <motion.li
-                        key={index}
+                        key={skill}
                         className='skills-tec'
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
