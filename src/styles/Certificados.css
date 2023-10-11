@@ -1,6 +1,6 @@
 .background-certificados {
   padding: 80px 0;
-  background-color:  #Af3128;
+  background-color: #af3128;
 }
 
 .certificados-name {
@@ -21,15 +21,12 @@
   margin-bottom: 40px;
 }
 
-.carousel-inner {
-}
-
 .carousel-inner img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ccc; /* Borda opcional */
-  border-radius: 8px; /* Arredondamento dos cantos */
-  margin-bottom: 15px; /* Espaço abaixo de cada imagem */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .carousel-control-prev,
@@ -41,4 +38,50 @@
 .carousel-control-next-icon {
   width: 20px;
   height: 20px;
+}
+
+@media (min-width: 1024px) {
+  
+  #certificados-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .background-certificados {
+    padding: 100px 0;
+  }
+  
+  .certificados-name {
+    font-size: 48px;
+    margin-bottom: 60px;
+  }
+  
+  .carousel-inner {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    );
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .carousel-inner .carousel-item {
+    display: block;
+    position: relative; 
+    transform: none;
+    width: 100%;
+    flex: none;
+  }
+
+  .carousel-inner img {
+    border-radius: 12px;
+    margin-bottom: 25px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }
