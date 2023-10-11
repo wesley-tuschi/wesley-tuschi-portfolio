@@ -52,3 +52,18 @@
   margin-right: 8px;
   height: 20px;
 }
+
+@media (min-width: 1024px) {
+  .contato-name {
+    font-size: 48px;
+  }
+  .contato-text {
+    font-size: 24px;
+  }
+  .contact-link {
+    font-size: 24px;
+  }
+  .contact-icon {
+    height: 50px;
+  }
+}

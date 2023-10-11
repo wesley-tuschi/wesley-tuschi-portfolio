@@ -56,7 +56,11 @@ const Portfólio = () => {
           initial='hidden'
           animate={isVisible ? 'visible' : 'hidden'}
         >
-          <img src={RecipesApp} className='card-img-top img-fluid' alt='RecipesApp'/>
+          <img
+            src={RecipesApp}
+            className='card-img-top img-fluid'
+            alt='RecipesApp'
+          />
           <div className='card-body'>
             <h5 className='card-title'>
               <b>RecipesApp</b>
@@ -83,36 +87,35 @@ const Portfólio = () => {
               </a>
             </div>
           </div>
-          </motion.div>
-          <motion.div
+        </motion.div>
+        <motion.div
           className='card'
           variants={cardVariants}
           initial='hidden'
           animate={isVisible ? 'visible' : 'hidden'}
         >
-          <img src={TriviaTime} className='card-img-top img-fluid' alt='Trivia Time'/>
+          <img
+            src={TriviaTime}
+            className='card-img-top img-fluid'
+            alt='Trivia Time'
+          />
           <div className='card-body'>
             <h5 className='card-title'>
               <b>Trivia</b>
             </h5>
             <p className='card-text'>
-              O objetivo do aplicativo é treinar o conhecimento com o jogo Trivia.
+              O objetivo do aplicativo é treinar o conhecimento com o jogo
+              Trivia.
             </p>
             <div className='project-links'>
               <a
-                href='https://recipes-app-two-silk.vercel.app/'
+                href='https://trivia-app-trybe-29.netlify.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <Web className='web-logo img-fluid' />
               </a>
-              <a
-                href='https://github.com/wesley-tuschi/recipes-app'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <GitHub className='github-logo img-fluid' />
-              </a>
+              <GitHub className='github-logo img-fluid' />
             </div>
           </div>
         </motion.div>
