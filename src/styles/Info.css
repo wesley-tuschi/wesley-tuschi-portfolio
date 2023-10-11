@@ -1,5 +1,5 @@
 .background-info {
-  background-color: #Af3128;
+  background-color: #af3128;
   padding: 20px;
 }
 
@@ -10,10 +10,6 @@
 }
 
 .my-info {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  word-break: break-word;
-  max-width: 1000px;
   overflow: visible;
   font-weight: 400;
   font-style: normal;
@@ -52,6 +48,19 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.iam-2 {
+  margin: 20px 0;
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 4em;
+}
+
 .info-school {
   font-size: 16px;
   margin-top: 5px;
@@ -66,23 +75,44 @@
 }
 
 @media only screen and (min-width: 768px) {
+  #info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    gap: 20px;
+    align-items: center;
+  }
   .my-info {
     font-size: 48px;
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    z-index: 2;
   }
   .my-info-2 {
-    font-size: 24px;
+    font-size: 28px;
   }
   .info-school {
-    font-size: 18px;
+    font-size: 24px;
   }
   .info-paragraph {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .iam-2 {
+    font-size: 28px;
+    grid-column: 1;
+    align-self: center;
+    grid-row: 2;
+    justify-self: center;
   }
 
   .iam {
     display: grid;
     place-items: center;
-    
+  }
+  
+  .emphasis {
+    font-size: 28px;
   }
   .profile-photo {
     border: 10px solid #e9d8a6;
@@ -90,4 +120,9 @@
     width: 300px;
     height: 300px;
   }
+
+  .course-details {
+    grid-column: 2;
+  }
+
 }

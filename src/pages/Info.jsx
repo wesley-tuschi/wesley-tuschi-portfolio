@@ -76,7 +76,7 @@ const Info = () => {
             Sobre mim
           </motion.h1>
           <motion.div
-            className='course-details'
+            className='iam-2'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
