@@ -33,5 +33,6 @@
   .bar {
     font-size: 32px;
     padding: 0 10%;
+    margin-bottom: 5em;
   }
 }
