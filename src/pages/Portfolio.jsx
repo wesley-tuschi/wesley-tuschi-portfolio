@@ -109,13 +109,19 @@ const Portfólio = () => {
             </p>
             <div className='project-links'>
               <a
-                href='https://trivia-app-trybe-29.netlify.app/'
+                href='https://project-trivia-react.vercel.app/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <Web className='web-logo img-fluid' />
               </a>
-              <GitHub className='github-logo img-fluid' />
+              <a
+                href='https://github.com/wesley-tuschi/project-trivia-react'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <GitHub className='github-logo img-fluid' />
+              </a>
             </div>
           </div>
         </motion.div>
