@@ -3,6 +3,7 @@ import '../styles/Portfolio.css';
 import { motion } from 'framer-motion';
 import RecipesApp from '../images/logoRecipes.png';
 import TriviaTime from '../images/triviaTime.jpg';
+import TrybeTunes from '../images/trybeTunes.png';
 import { ReactComponent as Web } from '../assets/web-svgrepo-com.svg';
 import { ReactComponent as GitHub } from '../assets/github-142-svgrepo-com.svg';
 
@@ -117,6 +118,43 @@ const Portfólio = () => {
               </a>
               <a
                 href='https://github.com/wesley-tuschi/project-trivia-react'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <GitHub className='github-logo img-fluid' />
+              </a>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          className='card'
+          variants={cardVariants}
+          initial='hidden'
+          animate={isVisible ? 'visible' : 'hidden'}
+        >
+          <img
+            src={TrybeTunes}
+            className='card-img-top img-fluid'
+            alt='Trybe Tunes'
+          />
+          <div className='card-body'>
+            <h5 className='card-title'>
+              <b>Trybe Tunes</b>
+            </h5>
+            <p className='card-text'>
+              O objetivo do aplicativo é simular uma chamada para a API do
+              Spotify e retornar os dados do artista e album pesquisado.
+            </p>
+            <div className='project-links'>
+              <a
+                href='https://project-trybetunes-sigma.vercel.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Web className='web-logo img-fluid' />
+              </a>
+              <a
+                href='https://github.com/wesley-tuschi/project-trybetunes'
                 target='_blank'
                 rel='noopener noreferrer'
               >
