@@ -8,6 +8,7 @@ import Liderança from '../images/certificados/liderança.png';
 import Pentest from '../images/certificados/pentest.png';
 import ReactCurso from '../images/certificados/react.png';
 import SegurancaRede from '../images/certificados/seguranca-rede.png';
+import JavaCertificado from '../images/certificados/javaCertificado.png';
 
 const Certificados = () => {
   return (
@@ -89,6 +90,13 @@ const Certificados = () => {
               src={SegurancaRede}
               className='d-block w-100 img-certificados'
               alt='Certificado de Segurança de Rede'
+            ></img>
+          </div>
+          <div className='carousel-item'>
+            <img
+              src={JavaCertificado}
+              className='d-block w-100 img-certificados'
+              alt='Certificado de Java Fundamentos'
             ></img>
           </div>
         </div>

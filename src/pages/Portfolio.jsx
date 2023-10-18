@@ -50,7 +50,7 @@ const Portfólio = () => {
       <div id='portfolio-section'>
         <h1 className='portfolio-name'>Criações Selecionadas</h1>
       </div>
-      <div ref={cardRef}>
+      <div className="card-section" ref={cardRef}>
         <motion.div
           className='card'
           variants={cardVariants}
