@@ -10,7 +10,7 @@
   justify-content: flex-end;
   align-items: center;
   top: 0;
-  right:0;
+  right: 0;
   margin: 4em;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .circle {
-  width: 500px;
+  width: 90%;
 }
 
 .home-text {
@@ -45,11 +45,11 @@
 .my-name {
   color: #ffff;
   font-family: 'Goblin One', sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   color: #94d2bd;
   text-shadow: 2px 2px 4px black;
   margin-bottom: 3em;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .i-am {
@@ -64,7 +64,6 @@
   color: #94d2bd;
   /* color: #C94B84; */
   text-shadow: 2px 2px 4px black;
-
 }
 
 .blinking-cursor {
@@ -94,11 +93,14 @@
 
   .home-text2 {
     padding-top: 5em;
-    }
+  }
 
   .i-am {
     font-size: 2em;
-  } 
+  }
+  .circle {
+    width: 400px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -114,5 +116,8 @@
   }
   .my-words {
     font-size: 3em;
+  }
+  .circle {
+    width: 500px;
   }
 }

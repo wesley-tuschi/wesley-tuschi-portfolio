@@ -1,61 +1,18 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import '../styles/Portfolio.css';
-import { motion } from 'framer-motion';
 import RecipesApp from '../images/logoRecipes.png';
 import TriviaTime from '../images/triviaTime.jpg';
 import TrybeTunes from '../images/trybeTunes.png';
 import { ReactComponent as Web } from '../assets/web-svgrepo-com.svg';
 import { ReactComponent as GitHub } from '../assets/github-142-svgrepo-com.svg';
 
-const Portfólio = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const cardRef = useRef(null);
-
-  const cardVariants = {
-    hidden: {
-      x: '-100vw',
-      opacity: 0,
-    },
-    visible: {
-      x: 0,
-      opacity: 1,
-      transition: { type: 'spring', stiffness: 60 },
-    },
-  };
-
-  useEffect(() => {
-    const currentCardRef = cardRef.current;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          setIsVisible(entry.isIntersecting);
-        });
-      },
-      { threshold: 0.5 }
-    );
-
-    if (currentCardRef) {
-      observer.observe(currentCardRef);
-    }
-
-    return () => {
-      if (currentCardRef) {
-        observer.unobserve(currentCardRef);
-      }
-    };
-  }, []);
-
+const Portfolio = () => {
   return (
     <div className='background-portfolio'>
+      <h1 className='portfolio-name'>Projetos Selecionados</h1>
       <div id='portfolio-section'>
-        <h1 className='portfolio-name'>Criações Selecionadas</h1>
-        <div className='card-section' ref={cardRef}>
-          <motion.div
-            className='card'
-            variants={cardVariants}
-            initial='hidden'
-            animate={isVisible ? 'visible' : 'hidden'}
-          >
+        <div className='card-section'>
+          <div className='card'>
             <img
               src={RecipesApp}
               className='card-img-top img-fluid'
@@ -87,13 +44,8 @@ const Portfólio = () => {
                 </a>
               </div>
             </div>
-          </motion.div>
-          <motion.div
-            className='card'
-            variants={cardVariants}
-            initial='hidden'
-            animate={isVisible ? 'visible' : 'hidden'}
-          >
+          </div>
+          <div className='card'>
             <img
               src={TriviaTime}
               className='card-img-top img-fluid'
@@ -124,13 +76,8 @@ const Portfólio = () => {
                 </a>
               </div>
             </div>
-          </motion.div>
-          <motion.div
-            className='card'
-            variants={cardVariants}
-            initial='hidden'
-            animate={isVisible ? 'visible' : 'hidden'}
-          >
+          </div>
+          <div className='card'>
             <img
               src={TrybeTunes}
               className='card-img-top img-fluid'
@@ -161,11 +108,11 @@ const Portfólio = () => {
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Portfólio;
+export default Portfolio;

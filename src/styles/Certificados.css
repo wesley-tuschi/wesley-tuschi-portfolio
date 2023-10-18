@@ -1,7 +1,7 @@
 .background-certificados {
   padding: 80px 0;
   /* background-color: #af3128; */
-  background: linear-gradient(to right, #2C6979, #4397AD);
+  background: linear-gradient(to right, #2c6979, #4397ad);
 }
 
 .certificados-name {
@@ -15,8 +15,8 @@
   font-family: 'Goblin One', sans-serif;
   /* color: #e9d8a6; */
   color: white;
-  text-transform:uppercase;
-  text-shadow: 2px 2px 4px #E278FD;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #e278fd;
   font-size: 32px;
   letter-spacing: 0em;
   line-height: 1.2;
@@ -31,6 +31,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .carousel-control-prev,
@@ -45,35 +46,31 @@
 }
 
 @media (min-width: 1024px) {
-  
   #certificados-section {
     display: flex;
     justify-content: center;
   }
-  
+
   .background-certificados {
     padding: 100px 0;
   }
-  
+
   .certificados-name {
     font-size: 48px;
     margin-bottom: 60px;
   }
-  
+
   .carousel-inner {
     display: grid;
-    grid-template-columns: repeat(
-      2,
-      1fr
-    );
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
   }
 
   .carousel-inner .carousel-item {
     display: block;
-    position: relative; 
+    position: relative;
     transform: none;
     width: 100%;
     flex: none;
@@ -87,5 +84,11 @@
   .carousel-control-prev,
   .carousel-control-next {
     display: none;
+  }
+
+  .carousel-inner img:hover {
+    transform: scale(1.05); /* Isso fará com que a imagem aumente 10% */
+    /* transition: transform 0.3s ease-in-out;  */
+    z-index: 50;
   }
 }
