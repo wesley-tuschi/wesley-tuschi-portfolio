@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  z-index: 1;
 }
 
 .home-content {
@@ -25,6 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
 .my-name {
   color: #ffff;
@@ -32,6 +34,7 @@
   font-size: 4em;
   color: #94d2bd;
   margin-bottom: 3em;
+  max-width: 100%;
 }
 
 .i-am {

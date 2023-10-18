@@ -11,27 +11,27 @@ const bar = () => {
         <nav className='bar container-fluid'>
           <ul className='nav nav-pills'>
             <li className='nav-item'>
-              <button onClick={() => scrollTo('info-section')}>
+              <button className='bar-button' onClick={() => scrollTo('info-section')}>
                 Sobre mim
               </button>
             </li>
             <li className='nav-item'>
-              <button onClick={() => scrollTo('portfolio-section')}>
+              <button className='bar-button' onClick={() => scrollTo('portfolio-section')}>
                 Portfólio
               </button>
             </li>
             <li className='nav-item'>
-              <button classname='bar-button' onClick={() => scrollTo('certificados-section')}>
+              <button className='bar-button' onClick={() => scrollTo('certificados-section')}>
                 Certificados
               </button>
             </li>
             <li className='nav-item'>
-              <button classname='bar-button' onClick={() => scrollTo('habilidades-section')}>
+              <button className='bar-button' onClick={() => scrollTo('habilidades-section')}>
                 Skills
               </button>
             </li>
             <li className='nav-item'>
-              <button onClick={() => scrollTo('contato-section')}>
+              <button className='bar-button' onClick={() => scrollTo('contato-section')}>
                 Contato
               </button>
             </li>

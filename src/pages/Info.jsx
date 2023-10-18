@@ -66,7 +66,6 @@ const Info = () => {
         animate={isVisible ? 'visible' : 'hidden'}
         exit='exit'
       >
-        <div id='info-section'>
           <motion.h1
             className='my-info'
             initial={{ opacity: 0 }}
@@ -75,6 +74,7 @@ const Info = () => {
           >
             Sobre mim
           </motion.h1>
+        <div id='info-section'>
           <motion.div
             className='iam-2'
             initial={{ opacity: 0 }}
@@ -94,7 +94,7 @@ const Info = () => {
             anos e resido em Ribeirão Preto-SP.
           </motion.div>
           <motion.div
-            className='course-details'
+            className='course-details-1'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
@@ -113,7 +113,7 @@ const Info = () => {
           </motion.div>
 
           <motion.div
-            className='course-details'
+            className='course-details-2'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2, duration: 1 }}

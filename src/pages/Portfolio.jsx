@@ -49,120 +49,120 @@ const Portfólio = () => {
     <div className='background-portfolio'>
       <div id='portfolio-section'>
         <h1 className='portfolio-name'>Criações Selecionadas</h1>
-      </div>
-      <div className="card-section" ref={cardRef}>
-        <motion.div
-          className='card'
-          variants={cardVariants}
-          initial='hidden'
-          animate={isVisible ? 'visible' : 'hidden'}
-        >
-          <img
-            src={RecipesApp}
-            className='card-img-top img-fluid'
-            alt='RecipesApp'
-          />
-          <div className='card-body'>
-            <h5 className='card-title'>
-              <b>RecipesApp</b>
-            </h5>
-            <p className='card-text'>
-              O objetivo do aplicativo é auxiliar todos aqueles que amam
-              cozinhar, mas às vezes ficam perdidos sobre como preparar seus
-              pratos favoritos.
-            </p>
-            <div className='project-links'>
-              <a
-                href='https://recipes-app-two-silk.vercel.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <Web className='web-logo img-fluid' />
-              </a>
-              <a
-                href='https://github.com/wesley-tuschi/recipes-app'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <GitHub className='github-logo img-fluid' />
-              </a>
+        <div className='card-section' ref={cardRef}>
+          <motion.div
+            className='card'
+            variants={cardVariants}
+            initial='hidden'
+            animate={isVisible ? 'visible' : 'hidden'}
+          >
+            <img
+              src={RecipesApp}
+              className='card-img-top img-fluid'
+              alt='RecipesApp'
+            />
+            <div className='card-body'>
+              <h5 className='card-title'>
+                <b>RecipesApp</b>
+              </h5>
+              <p className='card-text'>
+                O objetivo do aplicativo é auxiliar todos aqueles que amam
+                cozinhar, mas às vezes ficam perdidos sobre como preparar seus
+                pratos favoritos.
+              </p>
+              <div className='project-links'>
+                <a
+                  href='https://recipes-app-two-silk.vercel.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Web className='web-logo img-fluid' />
+                </a>
+                <a
+                  href='https://github.com/wesley-tuschi/recipes-app'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <GitHub className='github-logo img-fluid' />
+                </a>
+              </div>
             </div>
-          </div>
-        </motion.div>
-        <motion.div
-          className='card'
-          variants={cardVariants}
-          initial='hidden'
-          animate={isVisible ? 'visible' : 'hidden'}
-        >
-          <img
-            src={TriviaTime}
-            className='card-img-top img-fluid'
-            alt='Trivia Time'
-          />
-          <div className='card-body'>
-            <h5 className='card-title'>
-              <b>Trivia</b>
-            </h5>
-            <p className='card-text'>
-              O objetivo do aplicativo é treinar o conhecimento com o jogo
-              Trivia.
-            </p>
-            <div className='project-links'>
-              <a
-                href='https://project-trivia-react.vercel.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <Web className='web-logo img-fluid' />
-              </a>
-              <a
-                href='https://github.com/wesley-tuschi/project-trivia-react'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <GitHub className='github-logo img-fluid' />
-              </a>
+          </motion.div>
+          <motion.div
+            className='card'
+            variants={cardVariants}
+            initial='hidden'
+            animate={isVisible ? 'visible' : 'hidden'}
+          >
+            <img
+              src={TriviaTime}
+              className='card-img-top img-fluid'
+              alt='Trivia Time'
+            />
+            <div className='card-body'>
+              <h5 className='card-title'>
+                <b>Trivia</b>
+              </h5>
+              <p className='card-text'>
+                O objetivo do aplicativo é treinar o conhecimento com o jogo
+                Trivia.
+              </p>
+              <div className='project-links'>
+                <a
+                  href='https://project-trivia-react.vercel.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Web className='web-logo img-fluid' />
+                </a>
+                <a
+                  href='https://github.com/wesley-tuschi/project-trivia-react'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <GitHub className='github-logo img-fluid' />
+                </a>
+              </div>
             </div>
-          </div>
-        </motion.div>
-        <motion.div
-          className='card'
-          variants={cardVariants}
-          initial='hidden'
-          animate={isVisible ? 'visible' : 'hidden'}
-        >
-          <img
-            src={TrybeTunes}
-            className='card-img-top img-fluid'
-            alt='Trybe Tunes'
-          />
-          <div className='card-body'>
-            <h5 className='card-title'>
-              <b>Trybe Tunes</b>
-            </h5>
-            <p className='card-text'>
-              O objetivo do aplicativo é simular uma chamada para a API do
-              Spotify e retornar os dados do artista e album pesquisado.
-            </p>
-            <div className='project-links'>
-              <a
-                href='https://project-trybetunes-sigma.vercel.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <Web className='web-logo img-fluid' />
-              </a>
-              <a
-                href='https://github.com/wesley-tuschi/project-trybetunes'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <GitHub className='github-logo img-fluid' />
-              </a>
+          </motion.div>
+          <motion.div
+            className='card'
+            variants={cardVariants}
+            initial='hidden'
+            animate={isVisible ? 'visible' : 'hidden'}
+          >
+            <img
+              src={TrybeTunes}
+              className='card-img-top img-fluid'
+              alt='Trybe Tunes'
+            />
+            <div className='card-body'>
+              <h5 className='card-title'>
+                <b>Trybe Tunes</b>
+              </h5>
+              <p className='card-text'>
+                O objetivo do aplicativo é simular uma chamada para a API do
+                Spotify e retornar os dados do artista e album pesquisado.
+              </p>
+              <div className='project-links'>
+                <a
+                  href='https://project-trybetunes-sigma.vercel.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Web className='web-logo img-fluid' />
+                </a>
+                <a
+                  href='https://github.com/wesley-tuschi/project-trybetunes'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <GitHub className='github-logo img-fluid' />
+                </a>
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </div>
   );

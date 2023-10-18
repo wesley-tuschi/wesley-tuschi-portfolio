@@ -36,8 +36,7 @@
   font-size: 19px;
 }
 
-.course-details {
-  margin: 20px 0;
+.course-details-1 {
   font-family: 'Space Mono', monospace;
   color: #ffffff;
   font-size: 18px;
@@ -46,10 +45,22 @@
   padding: 10px 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 2em;
+}
+
+.course-details-2 {
+  font-family: 'Space Mono', monospace;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 2em;
 }
 
 .iam-2 {
-  margin: 20px 0;
   font-family: 'Space Mono', monospace;
   color: #ffffff;
   font-size: 18px;
@@ -58,7 +69,6 @@
   padding: 10px 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.3);
-  top: 4em;
 }
 
 .info-school {
@@ -81,6 +91,7 @@
     grid-template-rows: 100px 1fr;
     gap: 20px;
     align-items: center;
+    margin-top: 8em;
   }
   .my-info {
     font-size: 48px;
@@ -88,6 +99,7 @@
     align-self: center;
     justify-self: center;
     z-index: 2;
+    padding-bottom: 2em;
   }
   .my-info-2 {
     font-size: 28px;
@@ -102,8 +114,10 @@
     font-size: 28px;
     grid-column: 1;
     align-self: center;
-    grid-row: 2;
+    grid-row: 1;
     justify-self: center;
+    margin-top: 13.6em;
+    padding-bottom: 4.5em;
   }
 
   .iam {
@@ -113,6 +127,7 @@
   
   .emphasis {
     font-size: 28px;
+    max-width: 100%;
   }
   .profile-photo {
     border: 10px solid #e9d8a6;
@@ -121,8 +136,55 @@
     height: 300px;
   }
 
-  .course-details {
+  .course-details-1 {
     grid-column: 2;
+    grind-row: 1;
+    padding-top: 2em;
+    margin-top: 4em;
   }
 
+  .course-details-2 {
+    grid-column: 2;
+    grind-row: 1;
+    margin-top: 15em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .my-info {
+    font-size: 48px;
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    z-index: 2;
+    padding-bottom: 1em;
+  }
+
+  .iam-2 {
+    font-size: 28px;
+    grid-column: 1;
+    align-self: center;
+    grid-row: 1;
+    justify-self: center;
+    margin-top: 13.6em;
+    padding-bottom: 4.5em;
+  }
+
+  .course-details-1 {
+    grid-column: 2;
+    grind-row: 1;
+    padding-top: 2em;
+    margin-top: 0px;
+  }
+
+  .course-details-2 {
+    grid-column: 2;
+    grind-row: 1;
+    margin-top: 5em;
+  }
+
+  #info-section {
+    margin-bottom: 4em;
+  }
 }
