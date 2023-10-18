@@ -4,8 +4,10 @@
   left: 0;
   right: 0;
   height: 10px;
-  background: #e9d8a6;
+  /* background: #e9d8a6; */
+  background: #FFE566;
   transform-origin: 0%;
+  z-index: 9999;
 }
 
 body {

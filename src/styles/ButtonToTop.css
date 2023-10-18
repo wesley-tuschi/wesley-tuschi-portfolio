@@ -1,6 +1,6 @@
 #button {
     display: inline-block;
-    background-color: #ee9b00;
+    background-color: #FFE566;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -22,6 +22,8 @@
     font-size: 2em;
     line-height: 50px;
     color: #fff;
+    text-shadow: 2px 2px 4px black;
+
   }
   #button:hover {
     cursor: pointer;

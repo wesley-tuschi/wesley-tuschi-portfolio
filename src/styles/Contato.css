@@ -1,6 +1,6 @@
 .background-contato {
-  background-color: #9c2b26;
-
+  /* background-color: #9c2b26; */
+  background: linear-gradient(to right, #2C6979, #4397AD);
   padding: 20px;
   text-align: center;
 }
@@ -14,7 +14,10 @@
   font-weight: 400;
   font-style: normal;
   font-family: 'Goblin One', sans-serif;
-  color: #e9d8a6;
+  text-transform:uppercase;
+  /* color: #e9d8a6; */
+  color: white;
+  text-shadow: 2px 2px 4px #E278FD;
   font-size: 32px;
   letter-spacing: 0em;
   line-height: 1.2;
@@ -26,6 +29,7 @@
 .contato-text {
   word-wrap: break-word;
   font-family: 'Space Mono', monospace;
+  text-shadow: 2px 2px 4px black;
   color: #ffffff;
   font-size: 18px;
   line-height: 1.5;
@@ -45,6 +49,9 @@
   font-size: 20px;
   text-decoration: none;
   color: #fff;
+  text-shadow: 2px 2px 4px black;
+
+  
 }
 
 .contact-icon {

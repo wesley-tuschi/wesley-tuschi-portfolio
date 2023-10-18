@@ -10,7 +10,8 @@
 .switch .cb {
   opacity: 0;
   width: 0;
-  height: 0;
+  height: 0em;
+  margin-left: -4.7em;
 }
 
 .toggle {

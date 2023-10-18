@@ -12,13 +12,18 @@
   font-weight: 400;
   font-style: normal;
   font-family: 'Goblin One', sans-serif;
-  color: #e9d8a6;
+  /* color: #e9d8a6; */
+  text-shadow: 2px 2px 4px #e0aaff;
+  text-transform:uppercase;
+  /* color: #4397AD; */
+  color: #E278FC;
   font-size: 32px;
   letter-spacing: 0em;
   line-height: 1.2;
   text-align: center;
   font-size: 32px;
   margin-bottom: 20px;
+
 }
 
 .card {

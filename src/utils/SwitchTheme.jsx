@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/SwitchTheme.css';
 
-const SwitchTheme = () => {
+const SwitchTheme = ({ onClick }) => {
   return (
     <div className='switch-theme'>
-      <label class='switch'>
-        <input type='checkbox' class='cb' />
-        <span class='toggle'>
-          <span class='left'>off</span>
-          <span class='right'>on</span>
+      <label className='switch' onClick={e => e.stopPropagation()}>
+        <input type='checkbox' className='cb' onClick={onClick} />
+        <span className='toggle'>
+          <span className='left'>off</span>
+          <span className='right'>on</span>
         </span>
       </label>
     </div>

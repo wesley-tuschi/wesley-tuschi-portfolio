@@ -24,10 +24,10 @@ const Info = () => {
     },
     visible: {
       opacity: 1,
-      transition: { delay: 0.5, duration: 1 },
+      transition: { delay: 0.2, duration: 0.3 },
     },
     exit: {
-      x: '-100vw',
+      x: '-40vw',
       transition: { ease: 'easeInOut' },
     },
   };
@@ -72,7 +72,7 @@ const Info = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Sobre mim
+            SOBRE MIM
           </motion.h1>
         <div id='info-section'>
           <motion.div

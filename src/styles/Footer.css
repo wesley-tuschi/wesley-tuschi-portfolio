@@ -5,7 +5,8 @@
   font-weight: 400;
   font-style: normal;
   font-family: 'Space Mono', monospace;
-  color: #ee9b00;
+  /* color: #ee9b00; */
+  color: #FFE566;
   font-size: 16px;
   letter-spacing: 0em;
   line-height: 1.5;
@@ -38,13 +39,6 @@
 @media (min-width: 1024px) {
   .footer {
     font-size: 18px;
-    background: repeating-linear-gradient(
-      to right,
-      white,
-      #000 0.03%,
-      black 20%,
-      black 1%
-    );
     margin-bottom: 20px;
   }
 }

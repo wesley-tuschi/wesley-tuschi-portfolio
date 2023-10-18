@@ -20,7 +20,10 @@
 .nav-item button {
   background-color: transparent;
   border: none;
-  color: #94d2bd;
+  /* color: #94d2bd; */
+  /* color: #C94B84; */
+  color: #E278FC;
+  text-shadow: 2px 2px 4px black;
   cursor: pointer;
 }
 

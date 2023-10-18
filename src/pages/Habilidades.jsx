@@ -31,7 +31,7 @@ const Habilidades = () => {
     <div className='background-habilidades'>
       <div id='habilidades-section'>
         <div className='skills-info'>
-          <h1 className='skills-title'>Tech Arsenal</h1>
+          <h1 className='skills-title'>Habilidades</h1>
           <p className='skills-paragraph'>
             Estas são algumas das linguagens e tecnologias utilizadas para
             desenvolvimento front-end, back-end e gerenciamento de bancos de

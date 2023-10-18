@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Notebook } from '../assets/notebook.svg';
+import { ReactComponent as Notebook } from '../assets/notebookPurple.svg';
 import { ReactComponent as Cheese } from '../assets/cheese-svgrepo-com.svg';
 import '../styles/Footer.css';
 

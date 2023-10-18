@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ReactComponent as Circle } from '../images/SunCircle.svg';
+// import { ReactComponent as Circle } from '../images/SunCircle.svg';
+import { ReactComponent as LightCircle } from '../images/lightCircle.svg';
+// import SwitchTheme from '../utils/SwitchTheme';
 import '../styles/Home.css';
 import Bar from '../utils/Bar';
 
@@ -8,8 +10,8 @@ const Home = () => {
   const [index, setIndex] = useState(0);
   const [subText, setSubText] = useState('');
   const [reverse, setReverse] = useState(false);
+  const [isLightTheme, setIsLightTheme] = useState(false);
 
-  
   useEffect(() => {
     const words = ['Desenvolvedor.', 'Tester.', 'Red-Team.'];
     const typingSpeeds = [200, 200, 200];
@@ -35,8 +37,17 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, [subText, index, reverse]);
 
+  const toggleTheme = () => { // Adicionado
+    console.log("toggleTheme chamada"); // Novo log para diagnóstico
+  setIsLightTheme(!isLightTheme);
+  console.log("Tema atual:", !isLightTheme ? "Claro" : "Escuro");
+};
+
   return (
-    <div className='home background-gradient vh-100'>
+    <div className={`home background-gradient vh-100`}>
+        {/* <button className='theme-active'>
+        <SwitchTheme onClick={toggleTheme} />
+        </button> */}
       <motion.div
         className='home-content'
         initial={{ y: '-100%', opacity: 0 }}
@@ -45,9 +56,9 @@ const Home = () => {
         transition={{
           type: 'spring',
           stiffness: 100,
-          damping: 8,
+          damping: 20,
         }}
-      >
+        >
         <div className='home-text'>
           <h1 className='my-name'>
             Wesley
@@ -61,7 +72,7 @@ const Home = () => {
           </div>
         </div>
         <div className='circle'>
-          <Circle className='img-fluid' />
+        <LightCircle className='img-fluid'/>
         </div>
         <Bar />
       </motion.div>
