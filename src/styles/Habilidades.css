@@ -142,3 +142,10 @@
     padding-left: 10em;
   }
 }
+
+@media (min-width: 1200px) {
+.skills-column {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
