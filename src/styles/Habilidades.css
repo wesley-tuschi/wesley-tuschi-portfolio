@@ -87,6 +87,19 @@
   border-radius: 10px;
   
 }
+@media (min-width: 768px) {
+  .skills-list {
+ margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10vh;
+    margin-bottom: 5h;
+  }
+
+  .skills-tec {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
 
 @media (min-width: 1024px) {
   .background-habilidades {
@@ -125,6 +138,6 @@
     margin-right: 25%;
     margin-top: 10vh;
     margin-bottom: 5h;
-    padding: 20px;
+    padding-left: 10em;
   }
 }
