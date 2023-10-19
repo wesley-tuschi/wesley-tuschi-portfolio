@@ -15,8 +15,8 @@
   font-family: 'Goblin One', sans-serif;
   /* color: #e9d8a6; */
   text-shadow: 2px 2px 4px #e0aaff;
-  text-transform:uppercase;
-  color: #E278FC;
+  text-transform: uppercase;
+  color: #e278fc;
   font-size: 32px;
   letter-spacing: 0em;
   line-height: 1.2;
@@ -53,14 +53,13 @@
   letter-spacing: 0em;
   line-height: 1.5;
   margin-top: 5px;
-  text-shadow: 2px 10px 20px #4397AD;
-
+  text-shadow: 2px 10px 20px #4397ad;
 }
 
 .skills-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-column {
@@ -70,7 +69,6 @@
   justify-content: center;
   height: auto;
   weight: auto;
-
 }
 
 .skills-list {
@@ -85,11 +83,10 @@
   justify-content: space-around;
   background-color: #212121;
   border-radius: 10px;
-  
 }
 @media (min-width: 768px) {
   .skills-list {
- margin-left: 25%;
+    margin-left: 25%;
     margin-right: 25%;
     margin-top: 10vh;
     margin-bottom: 5h;
@@ -110,7 +107,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .skills-title {
     font-size: 48px;
   }
@@ -120,9 +117,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10vh;
+    margin-bottom: 5h;
   }
-  
+
   .skills-paragraph {
     align-self: center;
     max-width: 50%;
