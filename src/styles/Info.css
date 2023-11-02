@@ -90,7 +90,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #info-section {
+  .info-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 1fr;
@@ -188,7 +188,7 @@
     margin-top: 5em;
   }
 
-  #info-section {
+  .info-section {
     margin-bottom: 4em;
   }
 }

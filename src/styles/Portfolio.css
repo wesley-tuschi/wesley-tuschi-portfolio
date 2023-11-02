@@ -16,7 +16,7 @@
   margin-top: 20px;
 }
 
-#portfolio-section {
+.portfolio-section {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 768px) {
-  #portfolio-section {
+  .portfolio-section {
   }
 
   .card-section {

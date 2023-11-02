@@ -9,8 +9,10 @@ import { ReactComponent as GitHub } from '../assets/github-142-svgrepo-com.svg';
 const Portfolio = () => {
   return (
     <div className='background-portfolio'>
-      <h1 className='portfolio-name'>Projetos Selecionados</h1>
-      <div id='portfolio-section'>
+      <h1 id='portfolio-section' className='portfolio-name'>
+        Projetos Selecionados
+      </h1>
+      <div className='portfolio-section'>
         <div className='card-section'>
           <div className='card'>
             <img

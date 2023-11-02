@@ -60,21 +60,22 @@ const Info = () => {
       style={{ backgroundColor: isVisible ? 'transparent' : 'black' }}
     >
       <motion.div
+        id='info-section'
         className='background-info'
         variants={containerVariants}
         initial='hidden'
         animate={isVisible ? 'visible' : 'hidden'}
         exit='exit'
       >
-          <motion.h1
-            className='my-info'
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 1 }}
-          >
-            SOBRE MIM
-          </motion.h1>
-        <div id='info-section'>
+        <motion.h1
+          className='my-info'
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+        >
+          SOBRE MIM
+        </motion.h1>
+        <div className='info-section'>
           <motion.div
             className='iam-2'
             initial={{ opacity: 0 }}
