@@ -23,4 +23,4 @@ Este é o repositório do meu portfólio pessoal. O site foi projetado para forn
 - Queijo
 
 ## LINK
-https://wesleytuschi.vercel.app/
+https://wesleytuschi.com.br/
